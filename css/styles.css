@@ -224,7 +224,8 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 
-  padding-bottom: 0;
+
+  padding-bottom: 47;
 }
 
 .visually-hidden {
@@ -263,7 +264,8 @@ h1 {
 }
 
 .qualities {
-  padding-top: 47px;
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
 .qualities-section .item:not(:last-child) {
@@ -273,7 +275,7 @@ h1 {
 /* Specialization */
 
 .specialization {
-  padding-top: 48px;
+  padding-top: 47px;
 }
 
 .specialization-picts {
