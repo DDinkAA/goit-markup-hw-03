@@ -105,6 +105,11 @@ h1 {
   letter-spacing: 0.03em;
 }
 
+.main-nav .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo-header {
   color: #000000;
 }
@@ -243,15 +248,16 @@ h1 {
 
 .qualities-section {
   display: flex;
+  gap: 30px;
 }
 
-/* .qualities-section .item {
-  width: calc((100%-90px) / 4);
-} */
+.qualities-section .item {
+  width: calc((100% - 90px) / 4);
+}
 
 .item p {
   margin: 0;
-  width: 270px;}
+}
 
 .qualities-list {
   font-weight: 700;
@@ -268,10 +274,6 @@ h1 {
   padding-bottom: 47px;
 }
 
-.qualities-section .item:not(:last-child) {
-  margin-right: 30px;
-}
-
 /* Specialization */
 
 .specialization {
@@ -280,10 +282,11 @@ h1 {
 
 .specialization-picts {
   display: flex;
+  gap: 30px;
 }
 
-.specialization-picts .pict:not(:last-child) {
-  margin-right: 30px;
+.specialization .pict {
+  width: calc((100% - 60px) / 3);
 }
 
 /* Our Team */
@@ -292,9 +295,18 @@ h1 {
   background-color: var(--secondary-background-color);
 }
 
-.team-card:not(:last-child) {
-  margin-right: 30px;
+.team-cards {
+  display: flex;
+  gap: 30px;
 }
+
+.team-card {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+/* .team-card:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .team-title {
   font-size: 16px;
@@ -303,10 +315,6 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 10px;
-}
-
-.team-cards {
-  display: flex;
 }
 
 .team-caption {
@@ -350,7 +358,7 @@ h1 {
   margin-bottom: 30px;
 } */
 
-.logo .logo-footer {
+.page-footer .logo {
   display: inline-block;
   margin-bottom: 30px;
 }
@@ -378,7 +386,7 @@ h1 {
   justify-content: center;
 }
 
-.filter {
+.buttons {
   margin-bottom: 50px;
 }
 
@@ -419,19 +427,20 @@ h1 {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card-item {
-  width: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
-.card-item:not(:nth-child(3n)) {
+/* .card-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
 .card-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-}
+} */
 
 
 .card-set .title {
