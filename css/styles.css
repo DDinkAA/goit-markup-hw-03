@@ -424,8 +424,7 @@ h1 {
 }
 
 .card-item {
-  /* flex-basis: calc((100% - 60px) / 3); */
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 /* .card-item:not(:nth-child(3n)) {
