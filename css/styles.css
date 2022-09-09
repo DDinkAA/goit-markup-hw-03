@@ -226,7 +226,6 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 
-
   padding-bottom: 47;
 }
 
@@ -425,7 +424,8 @@ h1 {
 }
 
 .card-item {
-  flex-basis: calc((100% - 60px) / 3);
+  /* flex-basis: calc((100% - 60px) / 3); */
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 /* .card-item:not(:nth-child(3n)) {
@@ -435,7 +435,6 @@ h1 {
 .card-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 } */
-
 
 .card-set .title {
   font-weight: 700;
